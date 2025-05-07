@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+.env
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+
+# Env variables
+.env
+.env*.local
+.env*.development*.local
+.env*.test*.local
+.env*.production*.local
+*.env
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Turborepo
+.turbo
+
+# Drizzle Kit
+drizzle/
+
+# Firebase Studio / IDX
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-crashlytics-debug.log
+storage.rules
+database.rules
+firestore.rules
+firestore.indexes.json
+
+# Genkit
+.genkit/
+
+# Optional: IDX specific state (if exists)
+.idx/
