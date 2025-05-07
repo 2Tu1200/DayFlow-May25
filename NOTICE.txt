@@ -1,0 +1,4 @@
+This software is proprietary and confidential.
+Copyright (c) 2025 [Sushil Kumar Singh -tu12031978@gmail.com].
+
+All rights reserved. No part of this code may be copied, modified, distributed, or used without express written permission.
